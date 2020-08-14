@@ -64,7 +64,7 @@ function deleteCheck(e) {
     if (allCount > 0) {
       allCount--;
     }
-    if(completedCount > 0) {
+    if(completedCount > 0 && todo.classList.contains('completed')) {
       completedCount--;
     }
   }
