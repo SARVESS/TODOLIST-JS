@@ -64,6 +64,9 @@ function deleteCheck(e) {
     if (allCount > 0) {
       allCount--;
     }
+    if(completedCount > 0) {
+      completedCount--;
+    }
   }
 
   // Check Mark
